@@ -1,1 +1,88 @@
+html{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+.main-content{
+   height: 320px;
+   width: 700px;
+   border: 0px solid white;
+   border-radius: 20px;
+   overflow: hidden;
+   background-color: white;
+   display: flex;
+   justify-content: center;
 
+}
+
+.logo{
+    padding-bottom: 20px;
+}
+.name{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+.description{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.sedan-card{
+    background-color: orange;
+    padding: 25px;
+}
+.suvs-card{
+    background-color: rgb(25, 152, 152);
+    padding: 25px;
+}
+.luxury-card{
+    background-color:rgb(16, 105, 74) ;
+    padding: 25px;
+}
+.learnmore{
+/* background-color: orange; */
+background-color: white;
+border-radius: 20px;
+width: 100px;
+padding: 5px;
+border: 2px white solid;
+cursor: pointer;
+}
+.sedan-learn-color{
+color: orange;
+}
+.suvs-learn-color{
+color: rgb(25, 152, 152)
+}
+.luxury-learn-color{
+color:rgb(16, 105, 74) ;
+}
+
+.learnmore:hover{
+    /* background-color: orange; */
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    border: 2px white solid;
+    }
+    .sedan-learn-color:hover{
+    background-color: orange;
+    }
+    .suvs-learn-color:hover{
+        background-color: rgb(25, 152, 152)
+    }
+    .luxury-learn-color:hover{
+        background-color:rgb(16, 105, 74) ;
+    }
+/* Responsive  */
+
+@media screen and (max-width:480px){
+    .main-content{
+        display: block;
+        width: 250px;
+        height: 111vh;
+    }   
+}
