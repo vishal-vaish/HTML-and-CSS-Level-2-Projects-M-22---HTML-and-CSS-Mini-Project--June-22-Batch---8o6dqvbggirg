@@ -84,11 +84,7 @@ color:rgb(16, 105, 74) ;
     .main-content{
         display: block;
         width: 250px;
-        height: 160vh;
-    }
-    html{
-    padding-top: 50px;
-    padding-bottom: 50px;
+        height: 100%;
     }
     
 }
